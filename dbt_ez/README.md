@@ -1,19 +1,4 @@
-# dbt Macros
-
-Macros are functions that output compiled SQL. They are a very useful tool for simplifying and abstracting SQL code. Please add docs and instructions to this markdown when you build a new macro. Proper documentation is critical to ensuring code can be repurposed.
-
-In your documentation, please include the following:
-
-- macro name
-- description of what it does
-- args and what they do 
-- example usage
-- example compiled SQL (output)
-
-And of course, thank you for your contribution!
-
-P.S. *Macro Best Practice* - Macros are most useful when they are generalized and can apply to multiple data models (similar to python programming paradigms). If your macro only works for one data model, it might be better for that jinja logic to live in the model instead. Or you can add args to make the macro more flexible.
-****************
+## dbt ez
 
 ### create_sk_cte \([source](https://github.com/SYRGAPP/dbt_dev/blob/main/macros/create_sk_cte.sql)\)
 
